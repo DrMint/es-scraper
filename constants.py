@@ -35,7 +35,12 @@ listSystem = [
     {"id": 102, "name": "vectrex"},
     {"id": 14, "name": "n64"},
     {"id": 15, "name": "nds"},
-    {"id": 17, "name": "n3ds"}
+    {"id": 17, "name": "n3ds"},
+    {"id": 27, "name": "atarijaguar"},
+    {"id": 6, "name": "cps1"},
+    {"id": 7, "name": "cps2"},
+    {"id": 8, "name": "cps3"},
+    {"id": 22, "name": "saturn"}
 ]
 
 medias = [
