@@ -9,10 +9,10 @@ import re
 
 # CONFIGURATION
 
-blacklistRomsFolderFile = ["cloud.conf", "readme.txt", "systeminfo.txt", "Disc Games Can Be Put Here For Automatic Detection.txt", "keys.txt", "log.txt"]
-blacklistSystem = ["3ds", "gamecube"]
+blacklistRomsFolderFile = ["cloud.conf", "readme.txt", "systeminfo.txt", "Disc Games Can Be Put Here For Automatic Detection.txt", "keys.txt", "log.txt", "metadata.txt"]
+blacklistSystem = ["3ds", "gamecube", "emulators"]
 
-overwriteSystemRomFolders = {"wiiu": "/roms"}
+overwriteSystemRomFolders = {"wiiu": "/roms", "model2": "/roms", "xbox360": "/roms"}
 
 # END CONFIGURATION
 

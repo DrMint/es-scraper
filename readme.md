@@ -30,7 +30,7 @@ During the auto-matching step, the program will list of the roms in given system
 
 To run the matching, run
 ```sh
-python3 matching.py
+python3 auto-matching.py
 ```
 
 The resulting csv can be opened in your favorite editor (e.g: LibreOffice Calc). The columns are:

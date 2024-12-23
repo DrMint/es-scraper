@@ -98,6 +98,6 @@ metaProperties = [
     "players"
 ]
 
-gamelistsFolder = "/home/deck/.emulationstation/gamelists"
+gamelistsFolder = "/home/deck/ES-DE/gamelists"
 downloadedMediaFolder = "/run/media/deck/7e3b832e-4cca-42ee-8fbf-636001f1dcd6/Emulation/tools/downloaded_media"
 romsFolder = "/run/media/deck/7e3b832e-4cca-42ee-8fbf-636001f1dcd6/Emulation/roms"

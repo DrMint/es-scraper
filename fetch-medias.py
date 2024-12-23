@@ -11,8 +11,6 @@ systems = scandir("matches")
 systems = [path.splitext(system.name)[0] for system in systems]
 systems = os_sorted(systems)
 
-skipRom = True
-
 for system in systems:
     systemId = [e["id"] for e in listSystem if e["name"] == system][0]
     
@@ -24,12 +22,6 @@ for system in systems:
 
             gameId = row["ssId"]
             if gameId == "":
-                continue
-
-            if gameId == "78686":
-                skipRom = False
-
-            if skipRom:
                 continue
 
             def getMissingMedias():
